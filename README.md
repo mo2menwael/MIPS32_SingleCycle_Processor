@@ -4,6 +4,8 @@
 
 This project implements a **MIPS32 single-cycle processor** in Verilog HDL, supporting a rich subset of **50+ MIPS Instructions**. It is designed for simulation and includes all necessary testbenches, waveform setups, and automation scripts.
 
+![Phase1_MIPS_Single_Cycle drawio](https://github.com/user-attachments/assets/35b2bb9a-88c9-4607-95fb-b4719d417535)
+
 ## Features
 
 * **Single-Cycle Implementation**: All instructions are executed in a single clock cycle.
@@ -29,15 +31,15 @@ You will need a Verilog/VHDL simulator to run and test the processor. Some popul
 
 ### Simulation
 
-1.  **Clone the repository:**
+1. **Clone the repository:**
     ```sh
     git clone https://github.com/mo2menwael/MIPS32_SingleCycle_Processor.git
     ```
-2.  **Navigate to the project directory:**
+2. **Navigate to the project directory:**
     ```sh
     cd MIPS32_SingleCycle_Processor
     ```
-3.  **Open your simulator, create a new project, add all the RTL files, and run the provided script.** The `run.do` file contains the necessary commands to compile the source code and run the simulation. You can execute it by typing the following command in your simulator console:
+3. **Open your simulator, create a new project, add all the RTL files, and run the provided script.** The `run.do` file contains the necessary commands to compile the source code and run the simulation. You can execute it by typing the following command in your simulator console:
     ```tcl
     do run.do
     ```
