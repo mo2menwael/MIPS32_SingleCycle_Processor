@@ -6,6 +6,7 @@ This project implements a **MIPS32 single-cycle processor** in Verilog HDL, supp
 
 ![Phase1_MIPS_Single_Cycle drawio](https://github.com/user-attachments/assets/35b2bb9a-88c9-4607-95fb-b4719d417535)
 
+
 ## Features
 
 * **Single-Cycle Implementation**: All instructions are executed in a single clock cycle.
