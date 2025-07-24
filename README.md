@@ -4,6 +4,7 @@
 
 This project implements a **MIPS32 single-cycle processor** in Verilog HDL, supporting a rich subset of **50+ MIPS Instructions**. It is designed for simulation and includes all necessary testbenches, waveform setups, and automation scripts.
 
+## Architecture
 ![MIPS_Single_Cycle drawio](https://github.com/user-attachments/assets/348bea3a-c9a1-41dc-8622-eca2f728d199)
 
 > For a clearer and scalable view of the architecture, open the `.drawio` block diagram file found in the main directory using [draw.io](https://www.drawio.com/). This allows full zoom and editing capabilities.
