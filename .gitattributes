@@ -2,13 +2,6 @@
 *.v linguist-language=Verilog
 *.sv linguist-language=SystemVerilog
 
-# Optional: mark data or log files as linguist-generated (excluded from language stats)
-*.d linguist-generated
-*.log linguist-generated
-*.do linguist-generated
-*.csv linguist-generated
-*.mat linguist-generated
-
 # Optional: if Stata files are being picked up wrongly, mark them too
 *.dta linguist-generated
 *.do linguist-generated
