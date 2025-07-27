@@ -1,7 +1,6 @@
 # Force .v and .sv files to be recognized as Verilog
-*.v linguist-language=Verilog
-*.sv linguist-language=SystemVerilog
+#*.v linguist-language=Verilog
+#*.sv linguist-language=SystemVerilog
 
-# Optional: if Stata files are being picked up wrongly, mark them too
-*.dta linguist-generated
+# Stata files are being picked up wrongly, marking them too
 *.do linguist-generated
