@@ -58,7 +58,7 @@ always@(*) begin
 
             // MTHI (Move To HI)
             6'b010001: begin
-                hi_write = 1'b1;
+                hi_write = 1'b1; reg_write = 1'b0;
             end
 
             // MFLO (Move From LO)
@@ -68,7 +68,7 @@ always@(*) begin
 
             // MTLO (Move To LO)
             6'b010011: begin
-                lo_write = 1'b1;
+                lo_write = 1'b1; reg_write = 1'b0;
             end
 
             // MULT (Multiply)
